@@ -20,7 +20,7 @@ This is the official repository of **Different U-Net - Neural Networks architect
 [Ali Ghaznavi<sup>∗</sup>](http://web.frov.jcu.cz/cs/o-fakulte/soucasti-fakulty/ustav-komplexnich-systemu-uks/labo-exp-komplex-systemu), 
 [Renata Rychtáriková<sup>∗</sup>](http://web.frov.jcu.cz/cs/o-fakulte/soucasti-fakulty/ustav-komplexnich-systemu-uks/labo-exp-komplex-systemu), 
 [Petr Císař<sup>∗</sup>](http://web.frov.jcu.cz/en/about-faculty/faculty-parts/institute-complex-systems/lab-signal-image-processing2),
-[Mohammadmehdi Ziaei<sup>∗</sup>]([https://www.gfz-potsdam.de/staff/mohammadmehdi.saberioon/sec14](http://web.frov.jcu.cz/en/about-faculty/faculty-parts/institute-complex-systems/lab-signal-image-processing2)),
+[Mohammadmehdi Ziaei<sup>∗</sup>](http://web.frov.jcu.cz/en/about-faculty/faculty-parts/institute-complex-systems/lab-signal-image-processing2),
 [Dalibor Štys<sup>∗</sup>](http://web.frov.jcu.cz/cs/kontakty-frov-ju/181-prof-rndr-dalibor-stys-csc) <br />
 (* *indicates equal contribution*)
 
@@ -32,19 +32,23 @@ This is the official repository of **Different U-Net - Neural Networks architect
 
 ## Abstract
 
-A case study on HeLa line. Living cell segmentation from bright-field light microscopic images is challenging due to the image complexity and temporal changes in the living cells. Recently developed deep learning (DL)-based methods became popular in medical and microscopic image segmentation tasks due to their success and promising outcomes. The main objective of this paper is to develop a deep learning, UNet-based method to segment the living cells of the HeLa line in bright-field transmitted light microscopy. To find the most suitable architecture for our datasets, we have proposed a residual attention U-Net and compared it with an attention and a simple U-Net architecture. The attention mechanism highlights the remarkable features and suppresses activations in the irrelevant image regions. The residual mechanism overcomes with vanishing gradient problem. The Mean-IoU score for our datasets reaches 0.9505, 0.9524, and 0.9530 for the simple, attention, and residual attention U-Net, respectively. We achieved the most accurate semantic segmentation results in the Mean-IoU and Dice metrics by applying the residual and attention mechanisms together. The watershed method applied to this best - Residual Attention - semantic segmentation result gave the segmentation with the specific information for each cell.
+Multi-class segmentation of unlabelled living cells in time-lapse light microscopy images is challenging due to the temporal behaviour and changes in cell life cycles and the complexity of images of this kind. The deep learning-based methods achieved promising outcomes and remarkable success in single- and multi-class medical and microscopy image segmentation. 
+The main objective of this study is to develop a hybrid deep learning-based categorical segmentation and classification method for living HeLa cells in reflected light microscopy images.
+%Method
+Different hybrid convolution neural networks -- a simple U-Net, VGG19-U-Net, Inception-U-Net, and ResNet34-U-Net architectures -- were proposed and mutually compared to find the most suitable architecture for multi-class segmentation of our datasets.  
 
+The inception module in the Inception-U-Net contained kernels with different sizes within the same layer to extract all feature descriptors. The series of residual blocks with the skip connections in each ResNet34-U-Net's level alleviated the gradient vanishing problem and improved the generalisation ability.
+%Result
+The m-IoU scores of multi-class segmentation for our datasets reached 0.7062, 0.7178, 0.7907, and 0.8067 for the simple U-Net, VGG19-U-Net, Inception-U-Net, and ResNet34-U-Net, respectively. For each class and the mean value across all classes, the most accurate multi-class semantic segmentation was achieved using the ResNet34-U-Net architecture (evaluated as the m-IoU and Dice metrics).
 ## Introduction
 
-##### Cell segmentation from telecentric bright-field transmitted light microscopic images using a Residual Attention U-Net:
+##### Hybrid deep-learning multi-class segmentation of HeLa cells in reflected light microscopy images ###### 
 
-###### A case study on HeLa line
-
-The data  achieved by transmitted light microscope from living Hela cells in different time-laps experiments under the condition already have been described in manuscript and divided to train, test and validation sets.
+The data  achieved by reflected light microscope from living Hela cells in different time-laps experiments under the condition already have been described in manuscript and divided to train, test and validation sets.
 
 The labeled data have been prepared manually to train with the deep learning based methods
 
-The models have been trained based on three different U-Net architecture (with the size of 512 * 512) to achieve the best segmentation result already reported in manuscript.
+The models have been trained based on four hybrid different CNN architecture (with the size of 512 * 512) to achieve the best segmentation result already reported in manuscript.
 
 
 
