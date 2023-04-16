@@ -1,5 +1,5 @@
 # Hybrid-CNNs-for-multi-class-segmentation
-![Python](https://img.shields.io/badge/python-v3.7-blue)
+![Python](https://img.shields.io/badge/python-v3.9-blue)
 ![Tensor](https://img.shields.io/badge/TensorFlow-V2.9.1-orange)
 ![Keras](https://img.shields.io/badge/Keras-V2.7-brightgreen)
 ![pandas](https://img.shields.io/badge/Pandas-V1.4.2-ff69b4)
@@ -19,7 +19,8 @@ This is the official repository of **Different U-Net - Neural Networks architect
 
 [Ali Ghaznavi<sup>∗</sup>](http://web.frov.jcu.cz/cs/o-fakulte/soucasti-fakulty/ustav-komplexnich-systemu-uks/labo-exp-komplex-systemu), 
 [Renata Rychtáriková<sup>∗</sup>](http://web.frov.jcu.cz/cs/o-fakulte/soucasti-fakulty/ustav-komplexnich-systemu-uks/labo-exp-komplex-systemu), 
-[Mohammadmehdi Saberioon<sup>∗</sup>](https://www.gfz-potsdam.de/staff/mohammadmehdi.saberioon/sec14),
+[Petr Císař<sup>∗</sup>](http://web.frov.jcu.cz/en/about-faculty/faculty-parts/institute-complex-systems/lab-signal-image-processing2),
+[Mohammadmehdi Ziaei<sup>∗</sup>]([https://www.gfz-potsdam.de/staff/mohammadmehdi.saberioon/sec14](http://web.frov.jcu.cz/en/about-faculty/faculty-parts/institute-complex-systems/lab-signal-image-processing2)),
 [Dalibor Štys<sup>∗</sup>](http://web.frov.jcu.cz/cs/kontakty-frov-ju/181-prof-rndr-dalibor-stys-csc) <br />
 (* *indicates equal contribution*)
 
