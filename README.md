@@ -64,8 +64,7 @@ We use this Deep Neural Network architecture:
 Modelling Bright Filed Dataset on U-Net Networks:
 
 
-<p align="center"> <img src="FinalGraphicalAB
-" width="95%"> </p>
+<p align="center"> <img src="FinalGraphicalAB.png" width="95%"> </p>
 
 
 **Important hyperparameters setup:**
