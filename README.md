@@ -26,8 +26,6 @@ This is the official repository of ** Different Hybrid - Neural Networks archite
 
 **For details, please refer to:**
 
-**[[Paper](https://www.researchgate.net/publication/359437115_Cell_segmentation_from_telecentric_bright-field_transmitted_light_microscopic_images_using_a_Residual_Attention_U-Net_a_case_study_on_HeLa_line)]** 
-
 
 
 ## Abstract
@@ -56,7 +54,7 @@ The models have been trained based on four hybrid different CNN architecture (wi
 
 **The Data-Set is Available in below links:**
 
-[To download Dataset you can use this link:] [Click Here](https://datadryad.org/stash/dataset/doi:10.5061/dryad.80gb5mksp)	"Microscopic data-set web directory include:       Training, Testing and Validation datasets are separately available in the linked repository."
+[To download Dataset you can use this link:] [Click Here](https://datadryad.org/stash/share/D19v1HCHpsvAos7DPFZaJOAvyMP80ZjiskRruodzwKs)	"Microscopic data-set web directory include:       Training, Testing and Validation datasets are separately available in the linked repository."
 
 
 ## (2) Methodology and DNN Architectures
