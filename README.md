@@ -88,7 +88,7 @@ Modelling Bright Filed Dataset on U-Net Networks:
 
 
 
-<p align="center"> <img src="stucture.png" width="95%"> </p>
+<p align="center"> <img src="Method.png" width="95%"> </p>
 
 ## (3) Usage
 
