@@ -24,7 +24,7 @@ This is the official repository of ** Different Hybrid - Neural Networks archite
 [Dalibor Štys<sup>∗</sup>](http://web.frov.jcu.cz/cs/kontakty-frov-ju/181-prof-rndr-dalibor-stys-csc) <br />
 (* *indicates equal contribution*)
 
-**For details, please refer to:**
+
 
 
 
