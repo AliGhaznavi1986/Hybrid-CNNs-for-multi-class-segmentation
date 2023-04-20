@@ -73,17 +73,15 @@ Modelling Bright Filed Dataset on U-Net Networks:
 
  number of layer ; default = 5
 
- Activation function = Leaky ReLU
+ Activation function =  ReLU
 
- epoch size; default = 100
+ epoch size; default = 200
 
  batch size; default = 8
 
- Early Stop = 15
+ Early Stop = 30
 
  learning rate ; default = 10e -3
-
- Step per Epoch = 100
 
  dropout_rate = 0.05
 
@@ -97,7 +95,7 @@ Modelling Bright Filed Dataset on U-Net Networks:
 **To run the script please use this file on Google Colab or Jupyter Notebook:**
 
 ```python
-U_Net_ATT_Unet+Res_Unet_Pub_V2.ipynb
+Unet+Vgg+inception_ResNet(Document_Colab).ipynb
 ```
 
 
@@ -114,7 +112,7 @@ Precision, Recall, Intersection over Union (IoU), Accuracy, Dice
 If you find our work useful in your research, please consider citing:
 
     @article{unknown,
-    author = {Ghaznavi, Ali and Rychtarikova, Renata and Saberioon, Mehdi and Stys, Dalibor},
+    author = {Ghaznavi, Ali and Rychtarikova, Renata andCisar, petr and Ziaei, MohammadMehdi and Stys, Dalibor},
     year = {2022},
     month = {03},
     pages = {},
