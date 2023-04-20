@@ -56,6 +56,7 @@ The models have been trained based on four hybrid different CNN architecture (wi
 
 [To download Dataset you can use this link:] [Click Here](https://datadryad.org/stash/share/D19v1HCHpsvAos7DPFZaJOAvyMP80ZjiskRruodzwKs)	"Microscopic data-set web directory include:       Training, Testing and Validation datasets are separately available in the linked repository."
 
+[To download trained models and supplementary data you can use this link:] [Click Here](https://drive.google.com/drive/folders/16-K-b_wDW2kO54HvrpUXLIxUoeKoNN_p?usp=sharing)	"Trained Models and other supplementary data:       Simple Unet, Vgg19-Unet, Inception-Unet, ResNet34-Unet models are separately available in the linked repository."
 
 ## (2) Methodology and DNN Architectures
 
@@ -63,7 +64,7 @@ We use this Deep Neural Network architecture:
 Modelling Bright Filed Dataset on U-Net Networks:
 
 
-<p align="center"> <img src="method.png" width="95%"> </p>
+<p align="center"> <img src="FinalGraphicalAB_07 (1).png" width="95%"> </p>
 
 
 **Important hyperparameters setup:**
