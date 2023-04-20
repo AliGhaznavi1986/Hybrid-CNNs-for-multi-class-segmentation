@@ -12,7 +12,7 @@
 
 
 
-This is the official repository of **Different U-Net - Neural Networks architecture for Semantic Segmentation from bright field microscopic time-series images** 
+This is the official repository of ** Different Hybrid - Neural Networks architecture for multi-class Semantic Segmentation from telecentric wide field reflected microscopic time-series images** 
 
 
 **Compression between Different U-Net - Neural Networks architecture for Semantic Segmentation** <br />
