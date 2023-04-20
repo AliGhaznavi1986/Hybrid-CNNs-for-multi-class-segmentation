@@ -112,7 +112,7 @@ Precision, Recall, Intersection over Union (IoU), Accuracy, Dice
 If you find our work useful in your research, please consider citing:
 
     @article{unknown,
-    author = {Ghaznavi, Ali and Rychtarikova, Renata andCisar, petr and Ziaei, MohammadMehdi and Stys, Dalibor},
+    author = {Ghaznavi, Ali and Rychtarikova, Renata and Cisar, petr and Ziaei, MohammadMehdi and Stys, Dalibor},
     year = {2022},
     month = {03},
     pages = {},
@@ -122,6 +122,6 @@ If you find our work useful in your research, please consider citing:
 
 ## (6) Updates
 
-* 22/03/2022: Adding the dataset information
+* 20/04/2023: Creat the Repo
 
 * -----: Initial release.
