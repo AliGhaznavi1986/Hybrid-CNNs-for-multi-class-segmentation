@@ -116,8 +116,8 @@ If you find our work useful in your research, please consider citing:
     year = {2022},
     month = {03},
     pages = {},
-    doi = {https://doi.org/10.1016/j.compbiomed.2022.105805}
-    title = {Cell segmentation from telecentric bright-field transmitted light microscopic images using a Residual Attention U-Net: a case study on HeLa line}
+    doi = {}
+    title = {Hybrid deep-learning multi-class segmentation of HeLa cells in reflected light microscopy images}
     }
 
 ## (6) Updates
