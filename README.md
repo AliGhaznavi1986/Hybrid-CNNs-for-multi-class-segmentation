@@ -30,14 +30,7 @@ This is the official repository of ** Different Hybrid - Neural Networks archite
 
 ## Abstract
 
-Multi-class segmentation of unlabelled living cells in time-lapse light microscopy images is challenging due to the temporal behaviour and changes in cell life cycles and the complexity of images of this kind. The deep learning-based methods achieved promising outcomes and remarkable success in single- and multi-class medical and microscopy image segmentation. 
-The main objective of this study is to develop a hybrid deep learning-based categorical segmentation and classification method for living HeLa cells in reflected light microscopy images.
-%Method
-Different hybrid convolution neural networks -- a simple U-Net, VGG19-U-Net, Inception-U-Net, and ResNet34-U-Net architectures -- were proposed and mutually compared to find the most suitable architecture for multi-class segmentation of our datasets.  
 
-The inception module in the Inception-U-Net contained kernels with different sizes within the same layer to extract all feature descriptors. The series of residual blocks with the skip connections in each ResNet34-U-Net's level alleviated the gradient vanishing problem and improved the generalisation ability.
-%Result
-The m-IoU scores of multi-class segmentation for our datasets reached 0.7062, 0.7178, 0.7907, and 0.8067 for the simple U-Net, VGG19-U-Net, Inception-U-Net, and ResNet34-U-Net, respectively. For each class and the mean value across all classes, the most accurate multi-class semantic segmentation was achieved using the ResNet34-U-Net architecture (evaluated as the m-IoU and Dice metrics).
 ## Introduction
 
 ##### Hybrid deep-learning multi-class segmentation of HeLa cells in reflected light microscopy images ###### 
