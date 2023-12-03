@@ -8,11 +8,8 @@
 ![Opensource](https://img.shields.io/badge/OpenSource-Yes!-6f42c1)
 
 
-# Different  Hybrid U-Net base - Neural Networks architecture for categorical Semantic Segmentation from telecentric wide field reflected microscopic time-series images
+# Different  variant of  U-Net base - Neural Networks architecture for categorical Semantic Segmentation from telecentric reflected microscopic time-series images
 
-
-
-This is the official repository of ** Different Hybrid - Neural Networks architecture for multi-class Semantic Segmentation from telecentric wide field reflected microscopic time-series images** 
 
 
 **Compression between Different U-Net - Neural Networks architecture for Semantic Segmentation** <br />
