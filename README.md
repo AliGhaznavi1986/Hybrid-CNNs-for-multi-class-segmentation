@@ -1,4 +1,4 @@
-# Hybrid-CNNs-for-multi-class-segmentation
+# Different-CNNs- architecture for-multi-class-segmentation
 ![Python](https://img.shields.io/badge/python-v3.9-blue)
 ![Tensor](https://img.shields.io/badge/TensorFlow-V2.9.1-orange)
 ![Keras](https://img.shields.io/badge/Keras-V2.7-brightgreen)
